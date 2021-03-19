@@ -5,11 +5,48 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.enter-text {
+  font-size: 2rem;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.enter-text2 {
+  font-size: 2rem;
+  font-family: "Akaya Telivigala", cursive;
+}
+
+.input {
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.input::placeholder {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.btn {
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  font-family: "Ranchers", cursive;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  transition: all 0.15s ease-in-out;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: greenyellow;
+  cursor: pointer;
 }
 
 .tag {
@@ -22,6 +59,7 @@ body {
   align-items: center;
   flex-direction: column;
   transition: all 0.5s ease-in-out;
+  margin-bottom: 5rem;
 }
 
 .tag:hover {
@@ -35,6 +73,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .hello-text {
@@ -52,4 +91,10 @@ body {
   font-size: 5rem;
   font-family: "Berkshire Swash", cursive;
   text-shadow: 2px 2px 5px black;
+}
+
+.pronouns {
+  font-size: 3rem;
+  font-family: "Akaya Telivigala", cursive;
+  margin-top: 0.8rem;
 }
